@@ -1,0 +1,7 @@
+string_to_reverse = input("enter the string")
+reversed_words = ' '.join([word[::-1] for word in string_to_reverse.split()])
+print(reversed_words)
+reversed_sentence=reversed_words.split( )
+reversed_sentence.reverse()
+sentence=' '.join(reversed_sentence)
+print(sentence)
